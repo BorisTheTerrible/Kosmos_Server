@@ -1,0 +1,68 @@
+Todo:
+	Add exception handaling for mutex calls to Logger
+
+Exceptions:
+	All code that runs before main() should be guarded with try-catch block
+	All function calls dealing with multithreading/file io/socket io should be in a try-catch block
+	All function calls that return a number for determining error state, should be checked/converted to exceptions if needed
+
+Files:
+	Source files should have format= UppercaseStuff
+	Folder should have format= lowercase_stuff
+	Non-source files should have format= Uppercase_Stuff
+
+Naming:
+	All macro defintions must be UPPERCASE_STUFF
+	Enum type must be UppercaseStuff, Enum values must be UppercaseStuff
+	Struct type must be UppercaseStuff
+	Classes type must be UppercaseStuff
+	Function must be lowercaseStuff
+	Variables must be lowercaseStuff
+
+Class Header vs Source Files:
+	Variables and Methods must be declared in the order they are from the header file
+
+Comments:
+	/* Single Line comment */
+	/*
+	  Multiline comment
+	*/
+
+File Order:
+	Include Guard:
+		*If header file obviously...
+
+	Includes Order:
+		Library Includes without directory prefixes
+		Library Includes with directory prefixes
+		Program Includes without directory prefixes
+		Program Includes with directory prefixes
+		Original Header File
+		Macro Defintions
+		Conditional Statements:
+			<Includes Order>
+		
+	Struct Definitions:
+		*Can be in any order to fit byte boundaries
+	
+	Variable Definitions:
+		public Unintialized Variables
+		public Intialized Variables
+		private Unintialized Variables
+		private Intialized Variables
+		etc...
+	
+	Function Definition/Declaration:
+		<Variable Definitions>
+		Code
+		*Variable can be declared in the middle of code, just follow the Variable Defintions guideline in general
+	
+	Class Definitions:
+		Public:
+			<Variable Definitions>
+			
+			<Function Definition/Declaration>
+			
+Class Method Definition
+	*Should be defined by order in which they are declared in Class Header
+		

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kosmos_Server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Kosmos_Server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Kosmos_Server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-pthread" />
+		</Linker>
+		<Unit filename="source_code/Environment.cpp" />
+		<Unit filename="source_code/Environment.hpp" />
+		<Unit filename="source_code/Main.cpp" />
+		<Unit filename="source_code/network/Connection.cpp" />
+		<Unit filename="source_code/network/Connection.hpp" />
+		<Unit filename="source_code/network/ConnectionManager.cpp" />
+		<Unit filename="source_code/network/ConnectionManager.hpp" />
+		<Unit filename="source_code/network/Packet.cpp" />
+		<Unit filename="source_code/network/Packet.hpp" />
+		<Unit filename="source_code/network/Socket.cpp" />
+		<Unit filename="source_code/network/Socket.hpp" />
+		<Unit filename="source_code/network/TCPConnection.cpp" />
+		<Unit filename="source_code/network/TCPConnection.hpp" />
+		<Unit filename="source_code/network/TCPListenerSocket.cpp" />
+		<Unit filename="source_code/network/TCPListenerSocket.hpp" />
+		<Unit filename="source_code/network/UDPSocket.cpp" />
+		<Unit filename="source_code/network/UDPSocket.hpp" />
+		<Unit filename="source_code/utilities/Logger.cpp" />
+		<Unit filename="source_code/utilities/Logger.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

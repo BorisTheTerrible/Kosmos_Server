@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1496919567 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/Connection.cpp
+	"Connection.hpp"
+
+1515721117 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/Connection.hpp
+	"Packet.hpp"
+	<mutex>
+	<vector>
+	<thread>
+
+1516229142 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/Packet.hpp
+	<string>
+
+1515709422 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/ConnectionManager.cpp
+	"ConnectionManager.hpp"
+
+1517623435 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/ConnectionManager.hpp
+	"Packet.hpp"
+	"Connection.hpp"
+	<vector>
+	<mutex>
+	<thread>
+
+1553549343 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/EnvironmentChecks.cpp
+	"EnvironmentChecks.hpp"
+	<arpa/inet.h>
+
+1553549279 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/EnvironmentChecks.hpp
+	<iostream>
+
+1479005532 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/Packet.cpp
+	"Packet.hpp"
+
+1553549377 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/TCPConnection.cpp
+	"TCPConnection.hpp"
+	<string.h>
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1516226102 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/TCPConnection.hpp
+	<stdio.h>
+
+1527970627 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/Socket.cpp
+	"Socket.hpp"
+	<string>
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<poll.h>
+
+1527970618 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/Socket.hpp
+	<stdio.h>
+	<netinet/in.h>
+
+1527970457 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/TCPListenerSocket.cpp
+	"TCPListenerSocket.hpp"
+	"TCPConnection.hpp"
+	<string>
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1527970460 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/TCPListenerSocket.hpp
+	<stdio.h>
+	"Socket.hpp"
+
+1527970448 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/UDPSocket.cpp
+	"UDPSocket.hpp"
+	<string>
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1527970453 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/UDPSocket.hpp
+	"Socket.hpp"
+
+1553549449 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/main.cpp
+	"UDPSocket.hpp"
+	"TCPListenerSocket.hpp"
+	"TCPConnection.hpp"
+	"EnvironmentChecks.hpp"
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<sys/socket.h>
+	<bitset>
+	<arpa/inet.h>
+	<codecvt>
+	<locale>
+
+1553558560 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/Environment.cpp
+	<arpa/inet.h>
+	"Environment.hpp"
+
+1553558233 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/Environment.hpp
+	<stdio.h>
+
+1553551507 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/Connection.cpp
+	"Connection.hpp"
+
+1553558522 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/Connection.hpp
+	<mutex>
+	<vector>
+	<thread>
+	"Packet.hpp"
+
+1553558529 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/Packet.hpp
+	<string.h>
+
+1553551816 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/ConnectionManager.cpp
+	"ConnectionManager.hpp"
+
+1553551932 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/ConnectionManager.hpp
+	<vector>
+	<mutex>
+	<thread>
+	"Packet.hpp"
+	"Connection.hpp"
+
+1553551820 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/Packet.cpp
+	"Packet.hpp"
+
+1553558404 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/Socket.cpp
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<poll.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"Socket.hpp"
+
+1553552118 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/Socket.hpp
+
+1553558569 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/TCPConnection.cpp
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"TCPConnection.hpp"
+
+1553558101 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/TCPConnection.hpp
+	<arpa/inet.h>
+
+1553558459 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/TCPListenerSocket.cpp
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"TCPConnection.hpp"
+	"TCPListenerSocket.hpp"
+
+1553558535 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/TCPListenerSocket.hpp
+	<stdio.h>
+	"Socket.hpp"
+
+1553558475 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/UDPSocket.cpp
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"UDPSocket.hpp"
+
+1553551997 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/network/UDPSocket.hpp
+	"Socket.hpp"
+
+1553834852 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/Main.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<bitset>
+	<codecvt>
+	<locale.h>
+	<exception>
+	<stdexcept>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"Environment.hpp"
+	"network/UDPSocket.hpp"
+	"network/TCPListenerSocket.hpp"
+	"network/TCPConnection.hpp"
+	"utilities/Logger.hpp"
+
+1553833692 source:/home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/utilities/Logger.cpp
+	<iostream>
+	<chrono>
+	<ctime>
+	<iomanip>
+	<sstream>
+	<exception>
+	<cstdlib>
+	"Logger.hpp"
+
+1553833656 /home/juanthan/Desktop/CPlusPlus_Projects/Kosmos_Server/source_code/utilities/Logger.hpp
+	<stdio.h>
+	<string.h>
+	<queue>
+	<thread>
+	<mutex>
+	<condition_variable>
+
