@@ -10,8 +10,6 @@
 
 #include "UDPSocket.hpp"
 
-//TODO: check and convert for byte order
-
 UDPSocket::UDPSocket(char * bindIp, unsigned short bindSocket, int networkFamily)
 :
 Socket(bindIp, bindSocket, networkFamily, SOCK_DGRAM, IPPROTO_UDP)

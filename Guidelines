@@ -1,5 +1,6 @@
 Todo:
 	Add exception handaling for mutex calls to Logger
+	Switch all output statements to use Logger
 
 Exceptions:
 	All code that runs before main() should be guarded with try-catch block

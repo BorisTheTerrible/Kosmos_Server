@@ -109,9 +109,5 @@ sockaddr_in * Socket::getNewSockaddr_in(char * bindIp, unsigned short bindSocket
         return NULL;
     }
 
-    //printf("loopy %i\n", htonl(INADDR_LOOPBACK));
-    //std::cout << Sockaddr->sin_port << std::endl;
-    //std::cout << Sockaddr->sin_addr.s_addr << std::endl;
-
     return Sockaddr;
 }
